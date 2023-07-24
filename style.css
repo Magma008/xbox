@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first_color {
+    color: #8dd83d;
+}
+
+.fill_first {
+    fill: #8dd83d;
+}
+
+/* !-------------------------------------------- */
+
+/* ? Menu Section*/
+.menu {
+    background: #373a3c;
+}
+
+/* !------------------------------------------------- */
+
+/* ? Header Section */
+.header {
+    background: url("Images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 86.5vh;
+}
+
+.custom_button_1 {
+    background: #8dd83d;
+    color: white;
+    border: 1px solid #8dd83d;
+    padding: 10px 30px;
+    transition: all .3s linear;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.custom_button_1:hover {
+    background: transparent;
+    color: #8dd83d;
+}
+
+.custom_button_2 {
+    transition: all .3s linear;
+    background: gray;
+    color: white;
+    border: 1px solid gray;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-decoration: none;    
+}
+
+.custom_button_2:hover {
+    background: transparent;
+}
+/* !-------------------------------------------- */
+
+/* ? Body Section */
+.body {
+    background: rgb(128, 128, 128);
+}
+
+.cs_card {
+    border: 1px solid #8dd83d;
+}
+
+/* !-------------------------------------------- */
+
+/* ? Cards Section */
+.cards {
+    background: url("Images/background_2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_hover {
+    transition: all .5s linear;
+    background: #ebebeb;
+}
+
+.card_hover:hover {
+    transform: scale(1.1);
+    background: #fff;
+}
+
+.cards .col {
+    overflow: hidden;
+    border-radius: 7px;
+}
+/* !---------------------------------- */
+
+/* ? Design Section */
+.design {
+    background: url("Images/background_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* !------------------------------------------------ */
+
+/* ? Footer Section */
+.footer {
+    background: rgb(67, 67, 67);
+}
